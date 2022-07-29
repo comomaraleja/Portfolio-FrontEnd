@@ -1,0 +1,119 @@
+.row{
+    padding:60px;
+   
+    
+}
+
+div{
+    background-color: black;
+    align-items: center;
+      
+    
+    
+}
+
+#acerca{
+ text-align: right;
+}
+
+#nombre{
+    margin-left: 80px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 50px ;
+   
+    color:aliceblue;
+    text-align: left;
+
+    text-shadow:
+   0 0 5px rgb(10, 11, 11),
+   0 0 5px rgba(0,178,255,1),
+   0 0 5px rgb(2, 7, 8),
+   0 0 5px rgba(38,104,127,1),
+   0 0 5px rgba(38,104,127,1),
+   0 0 5px rgba(38,104,127,1),
+   0 0 5px rgba(38,104,127,1),
+   0 0 5px rgba(38,104,127,1),
+   0 0 30px rgb(255, 57, 242);
+}
+
+
+
+#fotoperfil{
+    
+    width: 80%;
+    border-radius: 50%;
+    margin-top: -50%;
+    position:relative;
+    margin-left: 30px;
+   
+    
+    
+   
+    
+        box-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 30px rgba(38,104,127,1),
+		0 0 20px rgba(38,104,127,1),
+		0 0 20px rgba(38,104,127,1),
+		0 0 50px rgba(38,104,127,1),
+		0 0 50px rgba(38,104,127,1);
+  
+   }
+
+  /* @media(max-width:575px){
+       #fotoperfil{
+           width: 20em;
+           position: relative;
+           top:-180px;
+           
+           
+           
+       }} */  
+
+     
+
+h2,p{
+    color: #ffffff;
+    
+}  
+
+li{
+    color: #56b7a0;
+    margin-left: 30px;
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+    
+
+    
+#twobox,#thirdbox{
+    padding: 5px;
+   
+}
+
+
+h2{
+    font-size: 35px;
+    margin-top: 20px;
+   
+   color:aliceblue;
+   text-align: right;
+   
+   text-shadow:
+   0 0 5px rgb(10, 11, 11),
+   0 0 5px rgba(0,178,255,1),
+   0 0 5px rgb(2, 7, 8),
+   0 0 5px rgba(38,104,127,1),
+   0 0 5px rgba(38,104,127,1),
+   0 0 5px rgba(38,104,127,1),
+   0 0 5px rgba(38,104,127,1),
+   0 0 5px rgba(38,104,127,1),
+   0 0 30px rgb(255, 57, 242);
+}

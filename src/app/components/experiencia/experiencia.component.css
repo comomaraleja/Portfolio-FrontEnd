@@ -1,0 +1,78 @@
+.row {
+    
+    background-color:rgb(18, 45, 52);
+    Word-wrap: break-Word;
+    
+}
+
+div{
+    padding: 40px;
+    text-align: right;
+    
+    
+}
+
+td{
+
+margin-left: 40px;
+
+    
+}
+
+#Titulo{
+    display:flex;
+}
+
+table,p{
+    color:#ffffffff;
+    text-align: left;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+   color:aliceblue;
+   margin-top: 10px;
+  
+   
+   text-shadow:
+   0 0 5px rgb(10, 11, 11),
+   0 0 5px rgba(0,178,255,1),
+   0 0 5px rgb(2, 7, 8),
+   0 0 5px rgba(38,104,127,1),
+   0 0 5px rgba(38,104,127,1),
+   0 0 5px rgba(38,104,127,1),
+   0 0 5px rgba(38,104,127,1),
+   0 0 5px rgba(38,104,127,1),
+   0 0 30px rgb(255, 57, 242);
+   
+}
+
+h2{
+    
+    color:#3eab91
+}
+
+button{
+
+   
+
+    margin-left: 40px;
+
+    color:aliceblue;
+    text-shadow:
+    0 0 5px rgb(10, 11, 11),
+    0 0 5px rgba(0,178,255,1),
+    0 0 5px rgb(2, 7, 8),
+    0 0 5px rgba(38,104,127,1),
+    0 0 5px rgba(38,104,127,1),
+    0 0 5px rgba(38,104,127,1),
+    0 0 5px rgba(38,104,127,1),
+    0 0 5px rgba(38,104,127,1),
+    0 0 30px rgb(255, 57, 242);
+
+
+}
+

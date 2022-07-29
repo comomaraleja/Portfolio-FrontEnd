@@ -1,0 +1,84 @@
+
+img{
+    margin-top: 2%;
+    width: 100%;
+    
+    
+   
+    box-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 30px rgba(38,104,127,1),
+		0 0 20px rgba(38,104,127,1),
+		0 0 20px rgba(38,104,127,1),
+		0 0 50px rgba(38,104,127,1),
+		0 0 50px rgb(232, 64, 247);
+    
+    
+}
+
+
+.contenedor{
+  margin-right: auto;
+  margin-left: auto;
+   
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.css-typing{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    text-align: center;
+    
+    
+    
+    color: aliceblue;
+    font-family:sans-serif;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 4vw;
+    margin: 0 auto;
+    font-family:'Courier New', Courier, monospace;
+    border-right: 0.05em solid aliceblue;
+    animation: typing 4s steps(40) 1s 1 normal both, blink 1s steps(1) infinite;
+    ;
+    
+    text-shadow: 
+		0 0 10px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 10px rgba(38,104,127,1),
+		0 0 10px rgba(38,104,127,1),
+		0 0 10px rgba(38,104,127,1),
+		0 0 30px rgb(151, 71, 249),
+		0 0 10px rgba(38,104,127,1),
+		0 0 30px rgb(254, 30, 254);
+    
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 81%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+   
+  @media(max-width:575px){
+    .contenedor{
+      margin-top: 20%;
+    }
+  }
