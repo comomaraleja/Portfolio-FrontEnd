@@ -17,13 +17,13 @@ div{
 }
 
 #nombre{
-    margin-left: 80px;
+    
     margin-top: 40px;
     font-weight: bold;
     font-size: 50px ;
    
     color:aliceblue;
-    text-align: left;
+    text-align: center;
 
     text-shadow:
    0 0 5px rgb(10, 11, 11),
@@ -76,15 +76,16 @@ div{
 
      
 
-h2,p{
+p{
     color: #ffffff;
     
 }  
 
-li{
+
+h3{
     color: #56b7a0;
-    margin-left: 30px;
-    font-size: 20px;
+    text-align: center;
+   
 }
 p{
     font-size: 20px;
